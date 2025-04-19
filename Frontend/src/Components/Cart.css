@@ -1,0 +1,37 @@
+.qr-modal-container {
+    /* Existing styles */
+  }
+  
+  .qr-modal-content {
+    /* Existing styles */
+  }
+  
+  .qr-modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    padding: 40px 80px;
+  }
+  
+  .qr-code-wrapper {
+    position: relative; /* For positioning the image */
+    display: flex;
+    justify-content: center; /* Center the QR code */
+    align-items: center; /* Center the QR code */
+  }
+  
+  .hello-book-image {
+    position: absolute;
+    /* Adjust these values to position the image in the middle */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Ensure the image is on top of the QR code */
+    /* Add any other styling for the image */
+  }
+  
+  /* Optional: You might want to reduce the size of the QR code slightly */
+  .qr-code-wrapper svg {
+    width: 200px;
+    height: 200px;
+  }

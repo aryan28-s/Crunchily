@@ -1,0 +1,301 @@
+.hero-section {
+  background-image: url('coffeecup.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment:fixed; 
+  color: rgb(0, 0, 0);
+  padding: 100px 0;
+  filter: brightness(80%);
+  backdrop-filter: blur(0.8);
+}
+.home {
+  width: 100%;
+  height: 75vh; 
+}
+
+.space {
+  background-image: url('home.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 70vh;
+  font-size: 80px;
+  font-family:cursive;
+  display: flexbox;
+  place-content: center;
+  align-items: center;
+  place-items: center;
+  /* color: rgb(0, 0, 0); */
+  color: white;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  filter:brightness(80%);
+  /* -webkit-text-stroke:1px rgb(255, 255, 255); */
+  -webkit-text-stroke:1px black;
+  filter: blur(0.5);
+}
+.custom-logo{
+  justify-content: space-between;
+}
+.text{
+  padding: 60px 60px 80px 60px;
+  /* background: rgba(255, 255, 255, 0.489); */
+  background: rgba(0, 0, 0, 0.457);
+  text-align:center;
+}
+.text-sub{
+  font-size: 25px;
+  letter-spacing: 1px;
+  /* color: black; */
+  color: white;
+  /* background: rgba(0, 0, 0, 0.457); */
+  background: rgba(255, 255, 255, 0.489);
+  font-family: 'Courier New', Courier, monospace;
+  -webkit-text-stroke:1px transparent;
+}
+::-webkit-scrollbar{
+  width:10px;
+}
+::-webkit-scrollbar-thumb{
+  background: #111;
+  background-clip: content-box;
+  height:20px;
+}
+.card {
+  height: 100%;
+  transition: transform 0.3s;
+  background: #333;
+}
+.d-flex1{
+  position: absolute;
+  top:15px;
+  right:100px;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: #f8f9fa;
+  color: #333;
+}
+.body{
+  background: black;
+  background-image: url('pixelcut-export.png');
+}
+.display-4{
+  text-transform: uppercase;
+}
+.custom-hover:hover{
+  color: skyblue;
+}
+.card-img-top {
+  height: 335px; /* Set a fixed height for the images */
+  object-fit: cover; /* Ensure the image covers the area without stretching */
+  width: 100%; /* Make the image take the full width of the card */
+}
+.custom-btn{
+  color:white;
+}
+.custom-btn:hover{
+  color:black;
+  background: white;
+}
+.my-custom-text{
+  color:"skyblue";
+  background:"transparent";
+  width:"800px";
+  float:"right";
+  font-size:"20px";
+  border-radius:"10px 0px 0px 10px";
+  position:"absolute";
+  right:"0px";
+  top:"350px";
+}
+.qr-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qr-box {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+.custome{
+    /* background: rgba(255, 255, 255, 0.644); */
+    background: rgba(0, 0, 0, 0.342);
+    padding: 113px 10px 113px 10px;
+    border-radius: 20px;
+}
+.myloginsignup{
+  color: white;
+  font-family: cursive;
+}
+.mybook{
+  background-color: #111;
+  /* background: url('home.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; */
+}
+.myCart{
+  background: url('image2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.mylogout{
+  font-size: 19px;
+  margin-top: 0px;
+  background:transparent;
+  border:1px solid transparent;
+  color:red;
+  padding: 5px 20px 0px 10px;
+}
+.mylogout:hover{
+  color: rgb(230, 21, 21);
+  border-bottom: 2px solid rgb(230, 21, 21);
+}
+.mycartbtn{
+  font-size: 20px;
+  background:transparent;
+  border:1px solid transparent;
+  color:white;
+  padding: 10px 10px 0px 20px;
+  text-decoration: none;
+  font-family: cursive;
+  transition: 1s all ease;
+  /* border-bottom: 20px solid whitesmoke; */
+}
+.mycartbtn:hover{
+  color: whitesmoke;
+  border-bottom: 2px solid whitesmoke;
+}
+.mymenubtn{
+  font-size: 20px;
+  background:transparent;
+  border:1px solid transparent;
+  color:white;
+  margin-top: 2px;
+  padding: 10px 10px 0px 10px;
+  text-decoration: none;
+  transition: 1s all ease-in;
+}
+.mymenubtn:hover{
+  color: whitesmoke;
+  border-bottom: 2px solid whitesmoke;
+  z-index: 1;
+}
+.myLogin{
+  font-size: 20px;
+  background:transparent;
+  border:1px solid transparent;
+  color:white;
+  padding: 10px 10px 0px 20px;
+  text-decoration: none;
+  /* font-family: cursive; */
+  transition: 1s all ease;
+}
+.myLogin:hover{
+  color: whitesmoke;
+  border-bottom: 2px solid whitesmoke;
+}
+.mySignUp{
+  font-size: 20px;
+  background:transparent;
+  border:1px solid transparent;
+  color:white;
+  padding: 10px 10px 0px 20px;
+  text-decoration: none;
+  /* font-family: cursive; */
+  transition: 1s all ease;
+}
+.mySignUp:hover{
+  color: whitesmoke;
+  border-bottom: 2px solid whitesmoke;
+}
+.mylink{
+  color: skyblue;
+  transition: 0.5s all ease;
+}
+.mylink:hover{
+  border: 1px solid black;
+}
+.mycrunchilyright{
+  color: #444;
+}
+.myinfolink{
+  transition: 0.5s all ease;
+}
+.myinfolink:hover{
+  border-bottom: 1px solid #555;
+}
+/* In your CSS file (e.g., Navbar.css or a global stylesheet) */
+
+/* Hide the hamburger button on desktop and show on mobile */
+.mobile-only-button {
+  display: none; /* Hidden by default */
+}
+
+@media (max-width: 991.98px) { /* Bootstrap's lg breakpoint */
+  .mobile-only-button {
+    display: block;
+  }
+  .desktop-only-links {
+    display: none !important; /* Hide desktop links on mobile */
+  }
+}
+
+/* Style for the mobile menu */
+.mobile-menu {
+  display: none; /* Hidden by default */
+  position: fixed; /* Or absolute, depending on your layout */
+  top: 60px; /* Adjust based on your navbar height */
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  z-index: 1000; /* Ensure it's on top */
+  padding: 20px;
+  transform: translateY(-100%); /* Slide it out initially */
+  transition: transform 0.3s ease-in-out;
+}
+
+.mobile-menu.open {
+  display: block;
+  transform: translateY(0); /* Slide it in when open */
+}
+
+.mobile-menu .navbar-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mobile-menu .nav-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #333;
+}
+
+.mobile-menu .nav-link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.mobile-menu .nav-link:hover {
+  color: #ccc;
+}
+
+.mobile-menu .nav-item:last-child {
+  border-bottom: none;
+}
